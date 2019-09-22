@@ -10,6 +10,7 @@ import time
 import stack
 #import paranthesis_checker_stack
 from paranthesis_checker_stack import *
+from cvt_decimal_binary import *
 
 #s= Stack()
 #
@@ -31,6 +32,8 @@ from paranthesis_checker_stack import *
 
 #print("time elapesed :", end-start)
 
-print(anyParChecker('[]'))
-print(anyParChecker('{({([][])})}'))
-print(anyParChecker('[{()]'))
+# print(anyParChecker('[]'))
+# print(anyParChecker('{({([][])})}'))
+# print(anyParChecker('[{()]'))
+
+print(cvt_decToBin(42))
