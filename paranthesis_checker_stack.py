@@ -21,7 +21,7 @@ def parChecker(par_str):
             if s.isEmpty():
                 balanced = False
             else:
-                s.pop()
+                s.pop()     
         
         index = index + 1
     
