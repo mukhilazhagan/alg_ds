@@ -11,6 +11,7 @@ import stack
 #import paranthesis_checker_stack
 from paranthesis_checker_stack import *
 from cvt_decimal_binary import *
+from cvt_any_base import *
 
 #s= Stack()
 #
@@ -37,3 +38,5 @@ from cvt_decimal_binary import *
 # print(anyParChecker('[{()]'))
 
 print(cvt_decToBin(42))
+print(baseConverter(25,2))
+print(baseConverter(25,16))
